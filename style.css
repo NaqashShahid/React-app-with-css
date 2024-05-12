@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.logo {
+    .logo-name {
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 3.5px;
+        padding: 4px 0;
+    }
+}
+
+.menu-wrape {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.logo-name {
+    color: #A80000;
+}
