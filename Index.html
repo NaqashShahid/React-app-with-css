@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style.css">
     <script text="text/javascript" src="js.js"></script>
     <title>React App</title>
@@ -39,8 +41,10 @@
         </div>
     </nav> -->
 
+
+    <!-- nnavBarr -->
     <nav>
-        <div class="nav-container">
+        <div class="nav-container-1">
             <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
@@ -54,10 +58,79 @@
                     </div>
                 </div>
             </div>
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-        </nav>
+            <div class="logo">
+                <h1 class="logo-name">REDHANDED</h1>
+            </div>
+            <span style="font-size:20px;cursor:pointer;padding:0px 5px;" onclick="openNav()">&#9776;</span>
+
         </div>
-        
+    </nav>
+
+    <!-- Hero sectionn -->
+    <section class="hero">
+        <div class="hero-container">
+            <h2>LEASE YOUR COMMERCIAL SPACE WITHOUT A BROKER</h2>
+            <div class="search-bar">
+                <form class="search-form">
+                    <label for="gsearch"></label>
+                    <input type="search" id="gsearch" name="gsearch" placeholder="Enter City or State">
+                </form>
+                <button class="search-btn-active">Search</button>
+            </div>
+            <p>Welcome to the new face of Commercial Real Estate Leasing! REDHANDED is an online platform where real
+                estate owners and potential tenants can transact independently of a broker. Don't get caught REDHANDED
+                paying broker fees!
+            </p>
+            <div class="search-bar-sec-1">
+                <button class="search-btn-active">Im a landlord</button>
+                <button class="search-btn-active">Im a tenant</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantage sectionn -->
+    <section class="advtg">
+        <div class="advtg-container">
+            <h2>The REDHANDED Advantage</h2>
+            <h3>Welcome to the new face of Commercial Real Estate Leasing!</h3>
+            <div class="advtgs-wrapper">
+                <div class="advtgs">
+                    <span class="material-symbols-outlined">
+                        task_alt
+                    </span>
+                    <p>REDHANDED is an online platform where real estate owners and entreprenuers can connect and
+                        negotiate daily!
+                    </p>
+                </div>
+                <div class="advtgs">
+                    <span class="material-symbols-outlined">
+                        task_alt
+                    </span>
+                    <p>REDHANDED is an online platform where real estate owners and entreprenuers can connect and
+                        negotiate daily!
+                    </p>
+                </div>
+                <div class="advtgs">
+                    <span class="material-symbols-outlined">
+                        task_alt
+                    </span>
+                    <p>Lease or locate highly desired commercial spaces through our AI-driven technology platform.
+                    </p>
+                </div>
+                <div class="advtgs">
+                    <span class="material-symbols-outlined">
+                        task_alt
+                    </span>
+                    <p>"REDHANDED provides you with the tools to market your space."
+                    </p>
+                </div>
+            </div>
+            <iframe width="395" height="315" src="https://www.youtube.com/embed/BU0HuZLGSuU?si=YbEzwyBRnaDjBJUi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Check out this short video and learn how to save thousands on your next Commercial Real Estate Leasing.
+            </p>
+        </div>
+    </section>
+
 
 </body>
 
