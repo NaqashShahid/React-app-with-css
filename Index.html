@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script text="text/javascript" src="js.js"></script>
     <title>React App</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
@@ -15,7 +16,7 @@
 <body>
 
     <!-- NavBar -->
-    <nav>
+    <!-- <nav>
         <div class="nav-container">
             <div class="logo">
                 <h1 class="logo-name">REDHANDED</h1>
@@ -36,7 +37,27 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
+
+    <nav>
+        <div class="nav-container">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Partners</a>
+                    <a href="#">pricing</a>
+                    <div class="menu-btn">
+                        <button class="btn btn-inactive">Login</button>
+                        <button class="btn btn-active">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        </nav>
+        </div>
+        
 
 </body>
 
